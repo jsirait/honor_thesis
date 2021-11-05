@@ -1,1 +1,3 @@
-"#Senior Thesis \nThesis on the social genres of news sources for honors" 
+#Senior Thesis
+
+Thesis on the social genres of news sources for honors
