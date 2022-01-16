@@ -1,0 +1,6 @@
+Some ideas to pursue:
+1. Page rank algorithm to rank news sources based on their links to other news sources of particular importance
+    Questions:
+    a. Can we run page rank algorithm with undirected edges?
+    b. Can we incorporate node attributes such as weight for page rank algorithm?
+    
