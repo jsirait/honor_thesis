@@ -1,6 +1,11 @@
-Some ideas to pursue:
+# Some ideas to pursue:
+
 1. Page rank algorithm to rank news sources based on their links to other news sources of particular importance
     Questions:
     a. Can we run page rank algorithm with undirected edges?
     b. Can we incorporate node attributes such as weight for page rank algorithm?
     
+2. Compare and contrast embeddings using *shallow encoders* and *GNN embedding*.
+   We can quantify the difference by using the accuracy in downstream tasks such as classification.
+   This can be used to see if **structure** alone is enough to characterize news sources or if we need other information such 
+   as the details provided by Wikidata and Muck Rack.
