@@ -25,3 +25,5 @@
 # Data notes:
 
 1. There are 441182 news sources in `muckrack_union.json`.
+2. There are 205998 news sources in `gdelt`.
+3. There are 38656 news soruces in  both Muck Rack and GDELT.
