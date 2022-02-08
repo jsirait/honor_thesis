@@ -12,3 +12,16 @@
    as the details provided by Wikidata and Muck Rack.
    
 3. Can we use GNN with weighted edges???
+
+
+# Decisions to make (or made but can be changed):
+
+1. For news sources that are divided further into individualized news pages (like podcasts on `anchor.fm`, 
+    do we consider it as one news source or do we count each individual news page as distinct news source?
+    => I am thinking as one news source `anchor.fm`. However, for now, I add both `subdomain.domain.suffix`
+       and `domain.suffix` into Muck Rack collections to be intersected with GDELT's.
+       
+
+# Data notes:
+
+1. There are 441182 news sources in `muckrack_union.json`.
