@@ -24,7 +24,8 @@
 
 # Data notes:
 
-1. There are 441281 news sources in `muckrack_union.json`. There 59244 news sources in the intersection between old and new Muck Rack.
+1. There are 457882 news sources in `muckrack_union.json`. There 60490 news sources in the intersection between old and new Muck Rack.
 2. There are 205994 news sources in `gdelt`.
-3. There are 40645 news sources in  both Muck Rack and GDELT.
-4. There are 3237 news sources in MBFC.
+3. There are 42477 news sources in  both Muck Rack and GDELT.
+4. There are 3289 news sources in MBFC.
+5. There are 1631 news sources in all GDELT, Muck Rack, and MBFC
