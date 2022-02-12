@@ -1,6 +1,5 @@
 # Some ideas to pursue:
 
-
 1. Page rank algorithm to rank news sources based on their links to other news sources of particular importance
     Questions:
     a. Can we run page rank algorithm with undirected edges?
@@ -29,3 +28,8 @@
 3. There are 42477 news sources in  both Muck Rack and GDELT.
 4. There are 3289 news sources in MBFC.
 5. There are 1631 news sources in all GDELT, Muck Rack, and MBFC
+
+
+# Daily 1-sentence log
+
+12 Feb I worked on Colab 1 from Stanford CS224W to train node embedding
