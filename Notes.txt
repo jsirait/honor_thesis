@@ -33,3 +33,6 @@
 # Daily 1-sentence log
 
 12 Feb I worked on Colab 1 from Stanford CS224W to train node embedding
+18 Feb I should make a heatmap graphic x = number of occurence of newssource 1; y = number of occurence of newssource 2;
+        z = contribution formula
+       Then another heatmap graphic x = contribution; y = number of subscribers; z = overall total weight.
