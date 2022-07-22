@@ -1,3 +1,3 @@
-#Senior Thesis
+# Senior Thesis
 
-Thesis on the social genres of news sources for honors
+Investigating News Sources Representations and Characterizations using their Reddit Audience-based Metrics
