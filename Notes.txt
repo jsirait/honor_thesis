@@ -1,4 +1,15 @@
-# Some ideas to pursue:
+# Data notes
+
+1. There are 457882 news sources in `muckrack_union.json`. There 60490 news sources in the intersection between old and new Muck Rack.
+2. There are 205994 news sources in `gdelt`.
+3. There are 42477 news sources in  both Muck Rack and GDELT.
+4. There are 3289 news sources in MBFC.
+5. There are 1631 news sources in all GDELT, Muck Rack, and MBFC
+
+
+# Private notes
+
+## Some ideas to pursue:
 
 1. Page rank algorithm to rank news sources based on their links to other news sources of particular importance
     Questions:
@@ -13,27 +24,9 @@
 3. Can we use GNN with weighted edges???
 
 
-# Decisions to make (or made but can be changed):
+## Decisions to make (or made but can be changed):
 
 1. For news sources that are divided further into individualized news pages (like podcasts on `anchor.fm`, 
     do we consider it as one news source or do we count each individual news page as distinct news source?
     => I am thinking as one news source `anchor.fm`. However, for now, I add both `subdomain.domain.suffix`
        and `domain.suffix` into Muck Rack collections to be intersected with GDELT's.
-       
-
-# Data notes:
-
-1. There are 457882 news sources in `muckrack_union.json`. There 60490 news sources in the intersection between old and new Muck Rack.
-2. There are 205994 news sources in `gdelt`.
-3. There are 42477 news sources in  both Muck Rack and GDELT.
-4. There are 3289 news sources in MBFC.
-5. There are 1631 news sources in all GDELT, Muck Rack, and MBFC
-
-
-# Daily 1-sentence log
-
-12 Feb I worked on Colab 1 from Stanford CS224W to train node embedding
-18 Feb I should make a heatmap graphic x = number of occurence of newssource 1; y = number of occurence of newssource 2;
-        z = contribution formula => DONE
-       Then another heatmap graphic x = contribution; y = number of subscribers; z = overall total weight.
-26 Feb I wrote about 400 words
